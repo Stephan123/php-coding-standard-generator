@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Php CS Text XML">
+<description>CEin erster Test. Es wurde nur das vorhandensein von 'Todo' eingebunden
+</description>
+<rule ref="Generic.Commenting.Todo"/>
+<rule ref="Generic.Files.LineLength">
+    <properties>
+        <property name="lineLimit" value="20"/>
+        <property name="absoluteLineLimit" value="20"/>
+    </properties>
+</rule>
+</ruleset>
